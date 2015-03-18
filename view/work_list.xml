@@ -4,6 +4,6 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
 <data>
     <xpath expr="/tree/field[@name='rec_name']" position="after">
         <field name="product"/>
-        <field naame="account"/>
+        <field name="account"/>
     </xpath>
 </data>
