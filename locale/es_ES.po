@@ -1,0 +1,53 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:product.kit.line:"
+msgid "You cannot modify componet  \"%s\" associated to works"
+msgstr ""
+"No se puede modificar el componente \"%s\" porqu�� tiene trabajos asociados."
+
+msgctxt "error:product.product:"
+msgid ""
+"You can not modify  \"%s\" product fields: \"Type, Kit components or "
+"Analytic Accounts\" because exists Timesheet Work associated"
+msgstr ""
+"No se puede modificar los campos \"Tipo, Componentes del kit o cuentas "
+"anal��ticas\" del producto \"%s\" porqu�� existen lineas del parte de trabajo "
+"asociados."
+
+msgctxt "error:timesheet.work:"
+msgid "You cannot delete work  \"%s\" with lines computed "
+msgstr "No se puede eliminar el trabajo \"%s\" con l��neas asociadas."
+
+msgctxt "field:analytic_account.account,full_name:"
+msgid "Full Name"
+msgstr "Nombre completo"
+
+msgctxt "field:analytic_account.account,works:"
+msgid "Work"
+msgstr "Trabajo"
+
+msgctxt "field:product.product,kit_component:"
+msgid "Kit Component"
+msgstr "Componente del kit"
+
+msgctxt "field:product.product,works:"
+msgid "Works"
+msgstr "Trabajos"
+
+msgctxt "field:timesheet.work,account:"
+msgid "Analytic Account"
+msgstr "Cuenta anal��tica"
+
+msgctxt "field:timesheet.work,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "model:ir.action,name:act_account_works_form"
+msgid "Timesheet Works"
+msgstr "L��neas de parte de trabajo"
+
+msgctxt "model:ir.action,name:act_product_works_form"
+msgid "Timesheet Works"
+msgstr "L��neas de parte de trabajo"

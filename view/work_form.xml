@@ -1,16 +1,10 @@
 <?xml version="1.0"?>
-<!-- This file is part of product_kit module for Tryton.
-The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/field[@name='name']" position="after">
-        <label string="name" id="rec_name"/>
-        <field name="rec_name"/>
-    </xpath>
     <xpath expr="/form/field[@name='company']" position="after">
         <newline/>
         <label name="product"/>
         <field name="product"/>
-        <label name="account"/>
-        <field name="account"/>
     </xpath>
 </data>

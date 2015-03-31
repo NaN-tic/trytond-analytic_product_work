@@ -142,7 +142,6 @@ class TimesheetWork:
     __name__ = 'timesheet.work'
 
     product = fields.Many2One('product.product', 'Product')
-    account = fields.Many2One('analytic_account.account', 'Analytic Account')
 
     def get_rec_name(self, name):
         if not (self.product and self.account):
