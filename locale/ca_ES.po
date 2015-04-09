@@ -4,7 +4,7 @@ msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "error:product.kit.line:"
 msgid "You cannot modify componet  \"%s\" associated to works"
-msgstr "No podeu modificar el component \"%s\" perqu�� te treballs associats."
+msgstr "No podeu modificar el component \"%s\" perquè te treballs associats."
 
 msgctxt "error:product.product:"
 msgid ""
@@ -12,12 +12,12 @@ msgid ""
 "Analytic Accounts\" because exists Timesheet Work associated"
 msgstr ""
 "No podeu modificar el camps del \"Tipus, Components del kit o compte "
-"anal��tic\" del producte \"%s\" perqu�� existeixen l��nies del full de treball "
+"analític\" del producte \"%s\" perquè existeixen línies del full de treball "
 "associades."
 
 msgctxt "error:timesheet.work:"
 msgid "You cannot delete work  \"%s\" with lines computed "
-msgstr "No podeu eliminar el treball \"%s\" perqu�� te l��nies assignades."
+msgstr "No podeu eliminar el treball \"%s\" perquè te línies assignades."
 
 msgctxt "field:analytic_account.account,full_name:"
 msgid "Full Name"
@@ -37,7 +37,7 @@ msgstr "Treballs"
 
 msgctxt "field:timesheet.work,account:"
 msgid "Analytic Account"
-msgstr "Compte anal��tic"
+msgstr "Compte analític"
 
 msgctxt "field:timesheet.work,product:"
 msgid "Product"
@@ -45,8 +45,8 @@ msgstr "Producte"
 
 msgctxt "model:ir.action,name:act_account_works_form"
 msgid "Timesheet Works"
-msgstr "L��nies del full de treball"
+msgstr "Línies del full de treball"
 
 msgctxt "model:ir.action,name:act_product_works_form"
 msgid "Timesheet Works"
-msgstr "L��nies del full de treball"
+msgstr "Línies del full de treball"
