@@ -48,7 +48,7 @@ class ProductKitLine:
         for line in lines:
             for work in line.product.works:
                 work.check_delete()
-                works_to_delete.append(work.id)
+                works_to_delete.append(work)
         TimesheetWork = Pool().get('timesheet.work')
         TimesheetWork.delete(works_to_delete)
         super(ProductKitLine, cls).delete(lines)
