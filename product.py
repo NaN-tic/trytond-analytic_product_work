@@ -74,13 +74,11 @@ class Template:
         actions = iter(args)
         args, create_works = [], []
         for records, values in zip(actions, actions):
-            print [f[:17] for f in values.keys()]
             if (values.get('type', '') == 'service' or
                     any(f[:17] == 'analytic_account_' for f in values.keys())):
                 create_works.extend(records)
             args.extend((records, values))
         super(Template, cls).write(*args)
-        print create_works
         for template in create_works:
             for product in template.products:
                 product.create_work()
